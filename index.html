@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML</h1>
+    </header>
+    <main>
+        <!-- Ordered lists -->
+        <h2>Ordered Lists</h2>
+        <ol type="i" start="">
+            <li>Jadon sancho</li>
+            <li>Paul pogba</li>
+            <li>Thiery Henry</li>
+            <li>Mo Salah</li>
+        </ol>
+
+        <!-- Images import externally -->
+        <h2>pexels Image</h2>
+        <img src="https://images.pexels.com/photos/31187944/pexels-photo-31187944/free-photo-of-cozy-reading-scene-with-coffee-and-flowers.jpeg" alt="Reading with coffee" height="500" width="500">
+
+        <!-- HTML tables -->
+        <h2>Tables</h2>
+        <table>
+            <caption>Table of Contacts</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jadon</td>
+                    <td>London</td>
+                    <td>1234456</td>
+                    <td>jadon@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Paul</td>
+                    <td>Paris</td>
+                    <td>1234456</td>
+                    <td>paul@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Thiery</td>
+                    <td>London</td>
+                    <td>1234456</td>
+                    <td>thiery@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Salah</td>
+                    <td>Liverpool</td>
+                    <td>1234456</td>
+                    <td>salah@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Marcus</td>
+                    <td>Birmingham</td>
+                    <td>1234456</td>
+                    <td>marcus@gmail.com</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- HTML forms -->
+        <h2>Form</h2>
+        <form action="" method="">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" name="name" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" placeholder="Enter your Email" name="email" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter your password" name="password" required minlength="6" maxlength="12">
+            <br>
+            <label for="date">Date</label>
+            <input type="date" placeholder="Enter date" name="date">
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" name="gender">Male
+            <input type="radio" value="female" name="gender">Female
+            <input type="radio" value="other" name="gender">Other
+            <br>
+            <label for="languages">Language</label>
+            <input type="checkbox" value="English" id="eng">English
+            <input type="checkbox" value="spanish" id="span">spanish
+            <input type="checkbox" value="french" id="fren">french
+            <br><br>
+            <select name="locations" id="location">
+                <option value="location">Select location</option>
+                <option value="London">London</option>
+                <option value="Birmingham">Birmingham</option>
+                <option value="Southampton">Southampton</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+            <button type="reset">Clear form</button>
+        </form>
+    </main>
+</body>
+</html>
